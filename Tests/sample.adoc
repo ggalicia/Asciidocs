@@ -1,0 +1,117 @@
+= Converting AsciiDoc To PDF
+
+Asciidoc is a rich text based markup language. A document written with Asciidoc can easily be converted to *HTML*, *_PDF_*, *Docbook*, *_Mobi_*, *Epub*, and *Odt* formats. This cheatsheet shows you the common features of Asciidoc Markup language.
+
+image:images/watermark.png[]
+
+.An example mathematical equation
+[math,file="t.png"]
+--
+\begin{align}
+\dot{x} & = \sigma(y-x) \\
+\dot{y} & = \rho x - y - xz \\
+\dot{z} & = -\beta z + xyp
+\end{align}
+--
+
+.An example mathematical equation
+[math,file="mathml-for.png"]
+--
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mi>x</mi>
+  <mo>=</mo>
+  <mrow>
+    <mfrac>
+      <mrow>
+        <mo>&#x2212;</mo>
+        <mi>b</mi>
+        <mo>&#xB1;</mo>
+        <msqrt>
+          <msup>
+            <mi>b</mi>
+            <mn>2</mn>
+          </msup>
+          <mo>&#x2212;</mo>
+          <mn>4</mn>
+          <mi>a</mi>
+          <mi>c</mi>
+        </msqrt>
+      </mrow>
+      <mrow>
+        <mn>2</mn>
+        <mi>a</mi>
+      </mrow>
+    </mfrac>
+  </mrow>
+  <mtext>.</mtext>
+</math>
+--
+
+
+
+
+[big]*Table*
+
+.An example table
+[options="header,footer"]
+|=======================
+|Col 1|Col 2      |Col 3
+|1    |Item 1     |a
+|2    |Item 2     |b
+|3    |Item 3     |c
+|6    |Three items|d
+|=======================
+
+
+[big]*List*
+
+* Q: How did the programmer die in the shower?
+  A: He read the shampoo instructions:
+
+  . Lather, rinse.
+  . Repeat.
+  
+[big]*Tables2*
+
+.An example table
+[options="header,footer"]
+|=======================
+|Col 1|Col 2      |Col 3
+|1    |Item 1     |a
+|2    |Item 2     |b
+|3    |Item 3     |c
+|6    |Three items|d
+|=======================
+
+[big]*Lists2*
+
+* Q: How did the programmer die in the shower?
+  A: He read the shampoo instructions:
+
+  . Lather, rinse.
+  . Repeat.
+
+== Section2
+
+[big]*Tables3*
+
+.An example table
+[options="header,footer"]
+|=======================
+|Col 1|Col 2      |Col 3
+|1    |Item 1     |a
+|2    |Item 2     |b
+|3    |Item 3     |c
+|6    |Three items|d
+|=======================
+
+[big]*Lists3*
+
+* Q: How did the programmer die in the shower?
+  A: He read the shampoo instructions:
+
+  . Lather, rinse.
+  . Repeat.
+  
+.Example video
+video::videos/TestDemo.mp4[width=400,options="nocontrols,autoplay"]
